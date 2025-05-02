@@ -9,3 +9,6 @@ requests
 tqdm 
 jupyter
 huggingface_hub
+
+pyarrow
+fastparquet
