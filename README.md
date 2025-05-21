@@ -1,8 +1,13 @@
+# Open Colab and Upload Notebook File
+
 # Dataset Download Link:
+
+## Download dataset 
 https://huggingface.co/datasets/Daehoon/WORLDREP/resolve/main/worldrep_dataset_v2.csv
-pip install lightgbm==4.3.0 shap tqdm
+
+## Upload data to Google Drive
+The notebook expects the dataset to be at:
+/content/drive/MyDrive/WORLDREP_Event_Predicting/data/worldrep_dataset_v2.csv
 
 # Execution Order
-1. create venv virtual environment： python3 -m venv .venv
-2. download dataset:    python download_dataset.py
-3. preprocessing & baseline model:  python baseline_pipeline.py --csv data/worldrep_dataset_v2.csv --outdir artifacts/  
+Change runtime to GPU and click run all
